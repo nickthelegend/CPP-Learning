@@ -10,4 +10,12 @@ students++;
 cout<<students<<endl;
 
 
+/*
+you know many of the operators so i am 
+
+just using this only
+
+*/
+
+
 }
