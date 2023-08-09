@@ -76,3 +76,24 @@ These are the basics of type conversion in C++. Understanding these concepts wil
 For more advanced or specific scenarios, refer to the [C++ Standard](https://isocpp.org/) and consult relevant documentation.
 
 Now you can add this Markdown guide to your GitHub repository and share your knowledge of type conversion in C++!
+
+
+
+# **getline**
+
+1. `std::getline`: This is a function provided by the C++ Standard Library that is used to read a line of text from an input stream.
+2. `std::cin`: This is the standard input stream. It is used to read input from the user, typically from the keyboard.
+3. `name`: This is a `std::string` variable where the input line will be stored. You need to have previously declared the `name` variable as a `std::string`.
+
+```cpp
+std::getline(std::cin, name);
+
+```
+
+
+Here's what happens:
+
+1. The program waits for user input from the standard input (keyboard).
+2. The user types a line of text and presses the "Enter" key.
+3. The `std::getline` function reads the entire line of text, including any spaces, until it encounters the "Enter" key press.
+4. The read text is then stored in the `name` variable, which is of type `std::string`.
