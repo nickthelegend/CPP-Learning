@@ -77,8 +77,6 @@ For more advanced or specific scenarios, refer to the [C++ Standard](https://iso
 
 Now you can add this Markdown guide to your GitHub repository and share your knowledge of type conversion in C++!
 
-
-
 # **getline**
 
 1. `std::getline`: This is a function provided by the C++ Standard Library that is used to read a line of text from an input stream.
@@ -90,10 +88,40 @@ std::getline(std::cin, name);
 
 ```
 
-
 Here's what happens:
 
 1. The program waits for user input from the standard input (keyboard).
 2. The user types a line of text and presses the "Enter" key.
 3. The `std::getline` function reads the entire line of text, including any spaces, until it encounters the "Enter" key press.
 4. The read text is then stored in the `name` variable, which is of type `std::string`.
+
+# Pre Increment and Post Increment
+
+**Pre-Increment (`++x` or `++variable`):**
+In pre-increment, the value of the variable is increased by 1 before its current value is used in an expression.
+
+like see it the value is increased by 1 before assignment
+
+```cpp
+int x = 5;
+int y = ++x;  // Increment x first, then assign the new value to y.
+```
+
+
+```cpp
+int a = 5;
+int b = ++a; // Now a = 6, b = 6
+```
+
+**Post-increment:**
+Post-increment is an operation where the value of a variable is incremented by 1 after its current value is used in an expression.
+
+The syntax for post-increment is:
+
+
+the value of the variable is increment before the assignment.
+
+```cpp
+int x = 10;
+int y = x++; // Now x = 11, y = 10
+```
