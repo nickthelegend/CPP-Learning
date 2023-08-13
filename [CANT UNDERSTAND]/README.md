@@ -178,7 +178,7 @@ int main() {
 
 ### Out Put of the code is
 
-In this example, `ref` is a reference to the variable `original`. Modifying `ref` also modifies `original`, and vice versa. Output:
+In this examples, `ref` is a reference to the variable `original`. Modifying `ref` also modifies `original`, and vice versa. Output:
 
 ```output
 Original: 42
